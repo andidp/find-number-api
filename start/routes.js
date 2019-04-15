@@ -18,7 +18,7 @@ const Route = use('Route')
 const { validate } = use('Validator')
 
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON' }
+  return { greeting: 'Find Number API' }
 })
 
 

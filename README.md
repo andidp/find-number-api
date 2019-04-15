@@ -1,28 +1,12 @@
-# Adonis API application
+# Find Number API
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+1. Manually clone the repo and then run `npm install`.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+2. Setup MYSQL database configuration in .env file, make sure your DB Config is correct.
+    DB_PORT=3306
+    DB_USER=FILL_WITH_DB_USER
+    DB_PASSWORD=FILL_WITH_PASS_DB_USER
+    DB_DATABASE=FILL_WITH_DB_NAME
+3. make sure Adonis JS is intalled and run on your machine
+4. run migration with
+  ``` adonis migration:run ```

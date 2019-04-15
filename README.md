@@ -2,7 +2,7 @@
 
 1. Manually clone the repo and then run `npm install`.
 
-2. Setup MYSQL database configuration in .env file, make sure your DB Config is correct.
+2. Setup MYSQL database configuration in `.env` file, make sure your DB Config is correct.
     
     ```
     DB_PORT=3306

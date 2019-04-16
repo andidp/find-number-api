@@ -17,4 +17,4 @@
 3. make sure Adonis JS is intalled and run on your machine
 4. run migration with
   ``` adonis migration:run ```
-5. run application : `adonis serve --dev```
+5. run application : `adonis serve --dev`
